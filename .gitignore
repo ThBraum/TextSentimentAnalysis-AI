@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Envs
+.env
+.venv/
+.venv-*/
+venv/
+env/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+data/external/
+data/interim/
+data/processed/
+models/*.pkl
+
+
+reports/external_sizes.csv
